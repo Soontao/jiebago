@@ -8,7 +8,7 @@
 ## 安装
 
 ```
-go get org.jiebago/...
+go get github.com/Soontao/jiebago/...
 ```
 
 ## 使用
@@ -19,7 +19,7 @@ package main
 import (
         "fmt"
 
-        "org.jiebago"
+        "github.com/Soontao/jiebago"
 )
 
 var seg jiebago.Segmenter
@@ -62,13 +62,13 @@ func Example() {
 【搜索引擎模式】： 小明 / 硕士 / 毕业 / 于 / 中国 / 科学 / 学院 / 科学院 / 中国科学院 / 计算 / 计算所 / ， / 后 / 在 / 日本 / 京都 / 大学 / 日本京都大学 / 深造 /
 ```
 
-更多信息请参考[文档](https://godoc.org/org.jiebago)。
+更多信息请参考[文档](https://godoc.org/github.com/Soontao/jiebago)。
 
 ## 分词速度
 
- - 2MB / Second in Full Mode
- - 700KB / Second in Default Mode
- - Test Env: AMD Phenom(tm) II X6 1055T CPU @ 2.8GHz; 《金庸全集》 
+- 2MB / Second in Full Mode
+- 700KB / Second in Default Mode
+- Test Env: AMD Phenom(tm) II X6 1055T CPU @ 2.8GHz; 《金庸全集》 
 
 ## 许可证
 

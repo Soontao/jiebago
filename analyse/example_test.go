@@ -3,7 +3,7 @@ package analyse_test
 import (
 	"fmt"
 
-	"org.jiebago/analyse"
+	"github.com/Soontao/jiebago/analyse"
 )
 
 func Example_extractTags() {

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"org.jiebago"
+	"github.com/Soontao/jiebago"
 )
 
 // Segment represents a word with weight.

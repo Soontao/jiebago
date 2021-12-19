@@ -5,7 +5,7 @@ import (
 	"math"
 	"regexp"
 
-	"org.jiebago/util"
+	"github.com/Soontao/jiebago/util"
 )
 
 var (

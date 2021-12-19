@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
+	_ "github.com/Soontao/jiebago/tokenizers"
 	"github.com/blevesearch/bleve"
 	_ "github.com/blevesearch/bleve/analysis/analyzer/custom"
-	_ "org.jiebago/tokenizers"
 )
 
 func Example_beleveSearch() {
@@ -102,7 +102,7 @@ func Example_beleveSearch() {
 	// Output:
 	// Result of "水果世博园": 2 matches:
 	// 1. Doc 3, (1.099550)
-	// Name: 买<mark>水果</mark>然后来<mark>世博</mark>园。
+	// Name: 买<mark>水果</mark>然后来<mark>世博园</mark>。
 	// 2. Doc 2, (0.031941)
 	// Name: The second one 你 中文测试中文 is even more interesting! 吃<mark>水果</mark>
 	// Result of "你": 1 matches:

@@ -3,7 +3,7 @@ package analyse
 import (
 	"sync"
 
-	"org.jiebago/dictionary"
+	"github.com/Soontao/jiebago/dictionary"
 )
 
 // DefaultStopWordMap contains some stop words.

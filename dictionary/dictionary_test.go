@@ -3,6 +3,8 @@ package dictionary
 import (
 	"sync"
 	"testing"
+
+	"github.com/stretchr/testify/assert"
 )
 
 type Dict struct {
@@ -56,4 +58,12 @@ func TestAddToken(t *testing.T) {
 	if d.posMap["好用"] != "a" {
 		t.Fatalf("Failed to add token, got pos %s, expected \"a\"", d.posMap["好用"])
 	}
+}
+
+func TestLoadDictionaryRemote(t *testing.T) {
+	assert := assert.New(t)
+	d := &Dict{freqMap: make(map[string]float64), posMap: make(map[string]string)}
+	e := LoadDictionaryRemote(d, "https://cdn.jsdelivr.net/gh/Soontao/dictionary/dict.text")
+	assert.Nil(e)
+	assert.Greater(len(d.freqMap), 0)
 }
