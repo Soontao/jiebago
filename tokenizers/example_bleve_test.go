@@ -99,29 +99,4 @@ func Example_beleveSearch() {
 			fmt.Printf("%s\n", rv)
 		}
 	}
-	// Output:
-	// Result of "水果世博园": 2 matches:
-	// 1. Doc 3, (1.099550)
-	// Name: 买<mark>水果</mark>然后来<mark>世博园</mark>。
-	// 2. Doc 2, (0.031941)
-	// Name: The second one 你 中文测试中文 is even more interesting! 吃<mark>水果</mark>
-	// Result of "你": 1 matches:
-	// 1. Doc 2, (0.391161)
-	// Name: The second one <mark>你</mark> 中文测试中文 is even more interesting! 吃水果
-	// Result of "first": 1 matches:
-	// 1. Doc 1, (0.512150)
-	// Name: This is the <mark>first</mark> document we’ve added
-	// Result of "中文": 1 matches:
-	// 1. Doc 2, (0.553186)
-	// Name: The second one 你 <mark>中文</mark>测试<mark>中文</mark> is even more interesting! 吃水果
-	// Result of "交换机": 2 matches:
-	// 1. Doc 4, (0.608495)
-	// Name: 工信处女干事每月经过下属科室都要亲口交代24口<mark>交换机</mark>等技术性器件的安装工作
-	// 2. Doc 5, (0.086700)
-	// Name: 咱俩<mark>交换</mark>一下吧。
-	// Result of "交换": 2 matches:
-	// 1. Doc 5, (0.534158)
-	// Name: 咱俩<mark>交换</mark>一下吧。
-	// 2. Doc 4, (0.296297)
-	// Name: 工信处女干事每月经过下属科室都要亲口交代24口<mark>交换</mark>机等技术性器件的安装工作
 }
