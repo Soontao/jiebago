@@ -27,6 +27,7 @@ import (
 var seg jiebago.Segmenter
 
 func init() {
+        // enhanced, you can load resource from remote by http/https protocol
         seg.LoadDictionary("dict.txt")
 }
 
@@ -72,6 +73,4 @@ func Example() {
 - 700KB / Second in Default Mode
 - Test Env: AMD Phenom(tm) II X6 1055T CPU @ 2.8GHz; 《金庸全集》 
 
-## 许可证
-
-MIT: http://wangbin.mit-license.org
+## [LICENSE](./LICENSE)
