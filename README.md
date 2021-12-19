@@ -1,6 +1,7 @@
 # 结巴分词 Go 语言版：Jiebago
 
 [![Go](https://github.com/Soontao/jiebago/actions/workflows/go.yml/badge.svg)](https://github.com/Soontao/jiebago/actions/workflows/go.yml)
+[![codecov](https://codecov.io/gh/Soontao/jiebago/branch/main/graph/badge.svg?token=qEz3uND3dd)](https://codecov.io/gh/Soontao/jiebago)
 
 [结巴分词](https://github.com/fxsjy/jieba) 是由 [@fxsjy](https://github.com/fxsjy) 使用 Python 编写的中文分词组件，jiebago 是结巴分词的 Golang 语言实现。
 
