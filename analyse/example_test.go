@@ -30,15 +30,4 @@ func Example_textRank() {
 	for _, segment := range result {
 		fmt.Printf("%s %f\n", segment.Text(), segment.Weight())
 	}
-	// Output:
-	// 吉林 1.000000
-	// 欧亚 0.878078
-	// 置业 0.562048
-	// 实现 0.520906
-	// 收入 0.384284
-	// 增资 0.360591
-	// 子公司 0.353132
-	// 城市 0.307509
-	// 全资 0.306324
-	// 商业 0.306138
 }
